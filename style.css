@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+:root{
+    --bgColor: #121717;
+}
+
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+main{
+    background-color: var(--bgColor);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputNumber{
+    width: 80vw;
+    height: 20vh;
+    margin: 5vh auto;
+}
+
+.trevo{
+    background-image: url('/image/trevoSena.png');
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    height: 80px;
+    width: 80px;
+    font-size: 45px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.senaList{
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.trevo{
+    text-shadow: rgb(255, 0, 247) 1px 1px 5px;
+}
+
+.keyboard{
+    width: 90vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.keyboard>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:  linear-gradient(135deg ,
+    rgba(158, 158, 158, 0.248),
+    rgba(222, 203, 203, 0.574),
+    rgba(222, 203, 203, 0.252),
+    rgba(158, 158, 158, 0.248),
+    rgba(222, 203, 203, 0.241));
+    width: 6vh;
+    height: 6vw;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(122, 122, 122);
+    text-shadow: rgb(0, 0, 0) 1px 1px 5px;
+}
+
+#b1{
+    display: none;
+}
+
+.checkBt{
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: rgba(211, 211, 211, 0.298) 0px 0px 2px;
+    color: var(--bgColor)
+}
+
+.checkBt-result{
+    color: rgb(22, 178, 95);
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.checkBt>a{
+    font-family: 'Knewave', cursive;
+}
+
+.keyboard>.selected{
+    background-image: linear-gradient( 135deg,
+    rgba(181, 6, 239, 0.844),
+    rgba(164, 18, 197, 0.279),
+    rgba(175, 9, 181, 0.376),
+    rgba(193, 0, 211, 0.823),
+    rgba(118, 9, 181, 0.365));
+}
+
+@keyframes roll{
+    0%{
+        transform: rotate3d(0deg);
+    }
+
+    100%{
+        transform: rotate3d(360deg);
+    }
+    
+
+}

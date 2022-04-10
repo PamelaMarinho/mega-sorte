@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="/image/trevo.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mega Sorte</title>
+</head>
+<body onload="key()">
+
+    <main>
+
+        <div class="inputNumber flex-row">
+            <div class="senaList flex-row center">
+                <div class="sena" id="s1"><div class="trevo"></div></div>
+                <div class="sena" id="s2"><div class="trevo"></div></div>
+                <div class="sena" id="s3"><div class="trevo"></div></div>
+                <div class="sena" id="s4"><div class="trevo"></div></div>
+                <div class="sena" id="s5"><div class="trevo"></div></div>
+                <div class="sena" id="s6"><div class="trevo"></div></div>
+            </div>
+        </div>
+
+        <div class="bt">
+            <div class="checkBt" onclick="showResult()">RESULTADO</div>
+            <div class="reloadBt" onclick="showResult()">NOVO JOGO</div>
+        </div>
+
+        <div class="keyboard flex-row" id="keyboard">
+
+            <div id="b1" onclick="selected(id)"><div class="in">1</div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
