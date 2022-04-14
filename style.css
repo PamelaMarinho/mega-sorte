@@ -180,3 +180,22 @@ main{
     
 
 }
+
+@media screen and (max-width: 647px){
+    .keyboard>div{
+        margin: 5px;
+        height: fit-content;
+        font-size: 15px;
+    }
+
+    .keyboard{
+        margin-bottom: 10px;
+        height: 65vh;
+    }
+
+    .trevo{
+        width: 20vw;
+        height: 20vw;
+        font-size: 30px;
+    }
+}
