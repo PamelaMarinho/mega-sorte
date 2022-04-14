@@ -51,7 +51,7 @@ main{
 }
 
 .trevo{
-    background-image: url('/image/trevoSena.png');
+    background-image: url('image/trevoSena.png');
     background-size: 100%;
     color: rgb(0, 0, 0);
     height: 80px;
