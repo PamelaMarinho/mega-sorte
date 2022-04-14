@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Fjalla One', sans-serif;
+    overflow: hidden;
 }
 
 :root{
@@ -47,7 +48,7 @@ main{
 .inputNumber{
     width: 80vw;
     height: 20vh;
-    margin: 5vh auto;
+    margin: 2% auto;
 }
 
 .trevo{
@@ -176,20 +177,37 @@ main{
 
 @media screen and (max-width: 647px){
     .keyboard>div{
-        margin: 1px;
+        margin: 3px;
         padding: 2px;
+        padding: 3px;
         height: fit-content;
         font-size: 15px;
     }
 
     .keyboard{
-        margin-bottom: 10px;
-        height: 65vh;
+        margin: auto;
+        width: 90%;
     }
 
     .trevo{
-        width: 20vw;
-        height: 20vw;
-        font-size: 30px;
+        width: 15vw;
+        height: 15vw;
+        font-size: 6vw;
+        flex-wrap: wrap;
+        margin: 2vw;
     }
-}
+
+    .inputNumber{
+        margin: 1vh auto 0 auto;
+        height: fit-content;
+    }
+
+    main{
+        justify-content: flex-start;
+        align-content: center;
+    }
+    main>div{
+        margin: 1vh 0 1vh 0;
+    }
+
+}   
