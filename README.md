@@ -9,6 +9,8 @@ Vou receber algum 💰 se acertar todos os números?<br>
 Só se acertar todos os números da mega-sena porque aqui só vai saber se é sortudo msm 😏
 <hr>
 
+Quer testar a sorte?? <a href="https://pamelamarinho.github.io/mega-sorte/">Clique aqui<a/>
+
 ![New-Recording-13_04_2022-21_13_34](https://user-images.githubusercontent.com/40448360/163289958-35931022-328a-47a0-a62a-8ff968aa48ee.gif)
 
 <hr>
