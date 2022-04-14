@@ -2,10 +2,10 @@
 
 Teste sua sorte com os números e veja como esta hoje
 
-Como jogar?
+Como jogar? <hr>
 Basta escolher 6 números que após selecionados irão liberar o botão resultado.
 
-Vou receber algum prêmio se acertar todos os números?
+Vou receber algum prêmio se acertar todos os números?<hr>
 Só se acertar todos so números da mega-sena, aqui só vai saber se é sortudo msm 😏
 
 
