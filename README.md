@@ -1,12 +1,12 @@
 🍀 Mega Sorte Game 🍀
 
-Teste sua sorte com os números e veja como esta hoje
+Teste sua sorte com os números
 
 Como jogar? <br>
 Basta escolher 6 números que após selecionados irão liberar o botão resultado.
 
 Vou receber algum prêmio se acertar todos os números?<br>
-Só se acertar todos so números da mega-sena, aqui só vai saber se é sortudo msm 😏
+Só se acertar todos os números da mega-sena porque aqui só vai saber se é sortudo msm ✌😏
 
 
 <hr>
