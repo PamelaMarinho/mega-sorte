@@ -119,6 +119,7 @@ main{
     cursor: pointer;
     font-size: 25px;
     color: rgb(122, 122, 122);
+    transition: all .4s;
 }
 
 .keyboard>.no-selected{
@@ -169,16 +170,8 @@ main{
     border: solid 1px rgba(100, 98, 98, 0.37);
 }
 
-@keyframes roll{
-    0%{
-        transform: rotate3d(0deg);
-    }
-
-    100%{
-        transform: rotate3d(360deg);
-    }
-    
-
+.flip{
+    transform: rotateX(720deg);
 }
 
 @media screen and (max-width: 647px){

@@ -75,7 +75,7 @@ function selected(id){
             if(classe == 'no-selected'){
 
                     if(length!=6){
-                        document.getElementById(id).setAttribute('class','selected'                                                                         )
+                        document.getElementById(id).setAttribute('class','selected flip'                                                                         )
                     }
                     if(length>=5){
                         document.getElementsByClassName('checkBt')[0]
