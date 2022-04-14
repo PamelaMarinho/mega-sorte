@@ -1,7 +1,7 @@
 🍀 Mega Sorte Game 🍀
 
 Teste sua sorte com os números
-
+<br><br>
 Como jogar? <br>
 Basta escolher 6 números que após selecionados irão liberar o botão resultado.
 
