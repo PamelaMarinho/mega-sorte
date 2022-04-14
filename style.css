@@ -38,6 +38,12 @@ main{
     justify-content: space-between;
 }
 
+#b1{
+    display: none;
+}
+
+/************ trevo ******************/
+
 .inputNumber{
     width: 80vw;
     height: 20vh;
@@ -45,7 +51,7 @@ main{
 }
 
 .trevo{
-    background-image: url('image/trevoSena.png');
+    background-image: url('/image/trevoSena.png');
     background-size: 100%;
     color: rgb(0, 0, 0);
     height: 80px;
@@ -56,6 +62,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow: rgb(255, 0, 247) 1px 1px 5px;
 }
 
 .senaList{
@@ -65,9 +72,32 @@ main{
     flex-wrap: wrap;
 }
 
-.trevo{
-    text-shadow: rgb(255, 0, 247) 1px 1px 5px;
+/************ botão resultado e novo jogo ******************/
+
+.bt{
+    justify-content: space-evenly;
 }
+
+.checkBt{
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: rgba(211, 211, 211, 0.298) 0px 0px 2px;
+    color: var(--bgColor)
+}
+
+.checkBt-result, .reloadBt,.checked{
+    color: rgb(22, 178, 95);
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.checkBt>a{
+    font-family: 'Knewave', cursive;
+}
+
+/************ keyboard ******************/
 
 .keyboard{
     width: 90vw;
@@ -82,47 +112,24 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    width: 6vh;
+    height: 6vw;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(122, 122, 122);
+}
+
+.keyboard>.no-selected{
     background-image:  linear-gradient(135deg ,
     rgba(158, 158, 158, 0.248),
     rgba(222, 203, 203, 0.574),
     rgba(222, 203, 203, 0.252),
     rgba(158, 158, 158, 0.248),
     rgba(222, 203, 203, 0.241));
-    width: 6vh;
-    height: 6vw;
-    border-radius: 10px;
-    margin: 10px;
-    text-align: center;
     border: solid 1px gray;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 25px;
-    color: rgb(122, 122, 122);
     text-shadow: rgb(0, 0, 0) 1px 1px 5px;
-}
-
-#b1{
-    display: none;
-}
-
-.checkBt{
-    text-align: center;
-    cursor: pointer;
-    font-size: 20px;
-    text-shadow: rgba(211, 211, 211, 0.298) 0px 0px 2px;
-    color: var(--bgColor)
-}
-
-.checkBt-result{
-    color: rgb(22, 178, 95);
-    text-align: center;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-.checkBt>a{
-    font-family: 'Knewave', cursive;
 }
 
 .keyboard>.selected{
@@ -132,6 +139,34 @@ main{
     rgba(175, 9, 181, 0.376),
     rgba(193, 0, 211, 0.823),
     rgba(118, 9, 181, 0.365));
+    border: solid 1px rgba(100, 98, 98, 0.37);
+}
+
+.keyboard>.include{
+    background-image: linear-gradient( 135deg,
+    rgb(34, 215, 117),
+    rgb(3, 92, 50),
+    rgb(22, 178, 95),
+    rgb(13, 130, 68),
+    rgb(22, 178, 95));
+    color: rgb(78, 2, 114);
+    border: solid 1px rgba(125, 225, 108, 0.37);
+}
+
+.keyboard>.winner{
+    background-image: linear-gradient( 135deg,
+    rgb(193, 172, 11),
+    rgb(238, 226, 121),
+    rgb(166, 143, 11),
+    rgb(157, 160, 6),
+    rgb(253, 231, 86));
+    color: rgb(20, 20, 20);
+    border: solid 1px rgba(234, 215, 50, 0.37);
+}
+
+.keyboard>.noInclude{
+    background-color: var(--bgColor);
+    border: solid 1px rgba(100, 98, 98, 0.37);
 }
 
 @keyframes roll{

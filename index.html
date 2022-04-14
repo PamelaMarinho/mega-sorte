@@ -23,14 +23,14 @@
             </div>
         </div>
 
-        <div class="bt">
-            <div class="checkBt" onclick="showResult()">RESULTADO</div>
-            <div class="reloadBt" onclick="showResult()">NOVO JOGO</div>
+        <div class="bt flex-row">
+            <div class="checkBt" id="checkBt" onclick="showResult()">RESULTADO</div>
+            <div class="reloadBt" onclick="reload()">NOVO JOGO</div>
         </div>
 
         <div class="keyboard flex-row" id="keyboard">
 
-            <div id="b1" onclick="selected(id)"><div class="in">1</div>
+            <div id="b1" onclick="selected(id)" class="no-selected"><div class="in">1</div>
             </div>
 
         </div>
