@@ -184,7 +184,7 @@ main{
 @media screen and (max-width: 647px){
     .keyboard>div{
         margin: 1px;
-        padding: 2alterpx;
+        padding: 2px;
         height: fit-content;
         font-size: 15px;
     }
