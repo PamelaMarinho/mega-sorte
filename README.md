@@ -9,6 +9,7 @@ Vou receber algum prêmio se acertar todos os números?<br>
 Só se acertar todos so números da mega-sena, aqui só vai saber se é sortudo msm 😏
 
 
+<hr>
 
  Desenvolvido com as tecnologias:
 
