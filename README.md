@@ -23,4 +23,4 @@ Quer testar a sorte?? <a href="https://pamelamarinho.github.io/mega-sorte/">Cliq
   <hr>
 
  
- Hey, se encontrar algum 🐞 vc me conta? A perfeição é dífícil mas com melhoria contínua quem sabe a gente chega la 😉
+ Hey, vc me conta se encontrar algum 🐛?? 
