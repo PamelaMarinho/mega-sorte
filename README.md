@@ -6,7 +6,7 @@ Como jogar? <br>
 Basta escolher 6 números que após selecionados irão liberar o botão resultado.
 
 
-<h1>Dúvidas</h1>
+<h3>Dúvidas</h3>
 Vou receber algum 💰 se acertar todos os números?<br>
 Só se acertar todos os números da mega-sena porque aqui só vai saber se é sortudo msm 😏
 
